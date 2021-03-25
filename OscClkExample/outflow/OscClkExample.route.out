@@ -1,0 +1,97 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272 
+Compiled: Dec  9 2019.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage routing graph generation ... *****
+Finished parsing ipin pattern file 'C:/Efinity/2019.3/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2019.3/arch/.\sb_connectivity_subset.xdb'.
+Generated 393801 RR nodes and 1460295 RR edges
+This design has 0 global control net(s). See C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow\OscClkExample.route.rpt for details.
+Routing graph took 1.63598 seconds.
+	Routing graph took 1.635 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 17.064 MB, end = 142.116 MB, delta = 125.052 MB
+	Routing graph peak virtual memory usage = 154.456 MB
+Routing graph resident set memory usage: begin = 26.384 MB, end = 149.252 MB, delta = 122.868 MB
+	Routing graph peak resident set memory usage = 161.508 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+Peak routing utilization for Horizontal Left: 0.092593 at (75,92)
+Peak routing utilization for Horizontal Right: 0.010349 at (74,137)
+Peak routing utilization for Vertical Down: 0.010417 at (73,137)
+Peak routing utilization for Vertical Up: 0.123137 at (75,92)
+Peak routing congestion: 0.009625 at (76,107)
+V Congestion RMS: nan STDEV: nan
+H Congestion RMS: nan STDEV: nan
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+Routed wire in iteration 1: 158
+Delay frac statistics: min = 0.752636 max = 1.000000 average = 0.982331
+         1            1              4.995            0.00979
+Routed wire in iteration 2: 158
+         2            0              4.995            0.00934
+
+Successfully routed netlist after 2 routing iterations and 1748 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 25609903
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.route'
+Routing took 0.0675751 seconds.
+	Routing took 0.069 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 142.116 MB, end = 142.792 MB, delta = 0.676 MB
+	Routing peak virtual memory usage = 170.54 MB
+Routing resident set memory usage: begin = 149.344 MB, end = 149.552 MB, delta = 0.208 MB
+	Routing peak resident set memory usage = 169.4 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+
+Maximum possible analyzed clocks frequency
+Clock Name      Period (ns)   Frequency (MHz)   Edge
+clk                 5.135         194.730     (R-R)
+
+Geomean max period: 5.135
+
+Launch Clock    Capture Clock    Constraint (ns)   Slack (ns)    Edge
+clk              clk                   1.000        -4.135     (R-R)
+
+
+final timing analysis took 0.0299961 seconds.
+	final timing analysis took 0.03 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 142.792 MB, end = 142.792 MB, delta = 0 MB
+	final timing analysis peak virtual memory usage = 170.54 MB
+final timing analysis resident set memory usage: begin = 149.56 MB, end = 149.848 MB, delta = 0.288 MB
+	final timing analysis peak resident set memory usage = 169.4 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.interface.csv".
+Finished writing bitstream file C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.lbf.
+Bitstream generation took 0.112717 seconds.
+	Bitstream generation took 0.112 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 142.792 MB, end = 149.768 MB, delta = 6.976 MB
+	Bitstream generation peak virtual memory usage = 170.54 MB
+Bitstream generation resident set memory usage: begin = 149.856 MB, end = 157.592 MB, delta = 7.736 MB
+	Bitstream generation peak resident set memory usage = 169.4 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 4.60407 seconds.
+	The entire flow of EFX_PNR took 4.604 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.112 MB, end = 32.488 MB, delta = 27.376 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 170.54 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 8.924 MB, end = 42.224 MB, delta = 33.3 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 169.4 MB

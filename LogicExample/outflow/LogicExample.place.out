@@ -1,0 +1,153 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272 
+Compiled: Dec  9 2019.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/LogicExample.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0015161 seconds.
+	VDB Netlist Checker took 0.001 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 9.468 MB, end = 9.472 MB, delta = 0.004 MB
+	VDB Netlist Checker peak virtual memory usage = 73.74 MB
+VDB Netlist Checker resident set memory usage: begin = 16.2 MB, end = 16.36 MB, delta = 0.16 MB
+	VDB Netlist Checker peak resident set memory usage = 54.912 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow/LogicExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow/LogicExample.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/LogicExample.vdb".
+Netlist pre-processing took 0.0179478 seconds.
+	Netlist pre-processing took 0.017 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 9.468 MB, end = 9.508 MB, delta = 0.04 MB
+	Netlist pre-processing peak virtual memory usage = 73.74 MB
+Netlist pre-processing resident set memory usage: begin = 16.012 MB, end = 16.648 MB, delta = 0.636 MB
+	Netlist pre-processing peak resident set memory usage = 54.912 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+Generate proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/work_pnr\LogicExample.net_proto" took 0.002 seconds
+Creating IO constraints file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/work_pnr\LogicExample.io_place'
+Packing took 0.111463 seconds.
+	Packing took 0.112 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 9.508 MB, end = 13.428 MB, delta = 3.92 MB
+	Packing peak virtual memory usage = 73.74 MB
+Packing resident set memory usage: begin = 16.688 MB, end = 20.948 MB, delta = 4.26 MB
+	Packing peak resident set memory usage = 58.58 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/work_pnr\LogicExample.net_proto
+Read proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/work_pnr\LogicExample.net_proto" took 0 seconds
+Setup net and block data structure took 0.019 seconds
+Packed netlist loading took 0.0661527 seconds.
+	Packed netlist loading took 0.066 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 10.432 MB, end = 12.556 MB, delta = 2.124 MB
+	Packed netlist loading peak virtual memory usage = 73.74 MB
+Packed netlist loading resident set memory usage: begin = 17.716 MB, end = 20.068 MB, delta = 2.352 MB
+	Packed netlist loading peak resident set memory usage = 59.132 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+Defaulting to: constrain all 0 inputs and 0 outputs on a virtual external clock.
+Optimize this virtual clock to run as fast as possible.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow/LogicExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow/LogicExample.interface.csv".
+Writing IO placement constraints to 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow\LogicExample.interface.io'.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow\LogicExample.interface.io'.
+WARNING(1): [Line 13] Block clk invalid, no such block.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/work_pnr\LogicExample.io_place'.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+No constrained clocks found. Qplacer will be run with timing driven mode disabled.
+memory map at hier_level memory(0)/mem_blk(0)
+mult map at hier_level mult(0)/mult_blk(0)
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps) Convergence
+ ----------     -------  --------------     -------
+          1          11     -2147483648        95.6%
+          2          11     -2147483648        95.6%
+          3          11     -2147483648        95.6%
+          4          11     -2147483648        95.6%
+          5          11     -2147483648        95.6%
+          6          11     -2147483648        95.6%
+          7          11     -2147483648        95.6%
+          8          11     -2147483648        96.1%
+          9          11     -2147483648        96.1%
+         10          11     -2147483648        96.1%
+         11          11     -2147483648        98.0%
+         12          11     -2147483648       100.0%
+         13          11     -2147483648       100.0%
+         14          11     -2147483648       100.0%
+Starting Legalization ... 
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0          11              NA        30.0
+          1          12              NA        30.0
+          2          12              NA        30.0
+          3          12              NA        30.0
+          4          13              NA        26.7
+          5          11              NA        30.0
+          6          13              NA        30.0
+          7          15              NA        30.0
+          8          15              NA        30.0
+          9          15              NA        30.0
+         10          13              NA        26.7
+         11          14              NA        30.0
+         12          14              NA        26.7
+         13          14              NA        23.8
+         14          14              NA        21.1
+         15          14              NA        18.8
+         16          13              NA        16.8
+         17          12              NA        17.7
+         18          13              NA        19.3
+         19          13              NA        22.0
+         20          13              NA        19.6
+         21          13              NA        20.7
+         22          13              NA        18.4
+Placement successful: 2 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.00484355 at 78,105
+Congestion-weighted HPWL per net: 3.05901
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow/LogicExample.qplace'.
+Finish Realign Types (0 blocks need type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: -1e+09 ns
+Successfully created FPGA place file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/LogicExample/outflow/LogicExample.place'
+Placement took 1.0866 seconds.
+	Placement took 1.087 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 13.428 MB, end = 15.432 MB, delta = 2.004 MB
+	Placement peak virtual memory usage = 73.74 MB
+Placement resident set memory usage: begin = 20.876 MB, end = 25.116 MB, delta = 4.24 MB
+	Placement peak resident set memory usage = 64.664 MB
+***** Ending stage placement *****

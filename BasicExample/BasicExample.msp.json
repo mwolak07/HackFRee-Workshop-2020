@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "top_module": "top_module",
+    "postmap": [
+        {
+            "clock_name": "",
+            "nets": [
+                {
+                    "name": "led2",
+                    "width": 1
+                },
+                {
+                    "name": "led1",
+                    "width": 1
+                }
+            ]
+        }
+    ]
+}

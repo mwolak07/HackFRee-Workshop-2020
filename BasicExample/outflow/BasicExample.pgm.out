@@ -1,0 +1,17 @@
+
+Efinix FPGA Programmer.
+Version: 2019.3.272 
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+Compiled: Dec  9 2019.
+
+Using source file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr/BasicExample.lbf"
+Generating HEX programming file for device "T8F81", family "Trion"
+Using periphery source file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.lpf"
+Finished generating "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.hex"
+Efinity Programmer took 2.56263 seconds.
+	Efinity Programmer took 2.564 seconds (approximately) in total CPU time.
+Efinity Programmer virtual memory usage: begin = 2.3 MB, end = 5.028 MB, delta = 2.728 MB
+	Efinity Programmer peak virtual memory usage = 72.432 MB
+Efinity Programmer resident set memory usage: begin = 6.236 MB, end = 10.624 MB, delta = 4.388 MB
+	Efinity Programmer peak resident set memory usage = 19.464 MB

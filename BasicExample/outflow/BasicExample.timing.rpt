@@ -1,0 +1,55 @@
+
+Efinix Static Timing Analysis Report
+Version: 2019.3.272 
+Date: Sat Jan 18 13:29:05 2020
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+ 
+Top-level Entity Name: BasicExample
+
+SDC Filename: Not Specified
+
+Timing Model: C2
+	temperature : 0C to 85C
+	voltage : 1.1V +/-50mV
+	speedgrade : 2
+	technology : s40ll
+	status : final
+
+---------- Table of Contents (begin) ----------
+   1. Clock Frequency Summary 
+   2. Clock Relationship Summary 
+   3. Path Details for Max Critical Paths 
+   4. Path Details for Min Critical Paths 
+---------- Table of Contents (end) ------------
+
+---------- 1. Clock Frequency Summary (begin) ----------
+
+User target constrained clocks
+Clock Name          Period (ns)   Frequency (MHz)   Waveform   Source Clock Name
+virtual_io_clock          1.000        1000.000         {0.000 0.500}        virtual
+
+Maximum possible analyzed clocks frequency
+Clock Name          Period (ns)   Frequency (MHz)   Edge
+
+Geomean max period: 1
+
+---------- Clock Frequency Summary (end) ---------------
+
+---------- 2. Clock Relationship Summary (begin) ----------
+
+Launch Clock      Capture Clock     Constraint (ns)   Slack (ns)    Edge
+
+NOTE: Values are in nanoseconds.
+
+---------- Clock Relationship Summary (end) ---------------
+
+---------- 3. Path Details for Max Critical Paths (begin) ----------
+
+
+---------- Path Details for Max Critical Paths (end) ---------------
+
+---------- 4. Path Details for Min Critical Paths (begin) ----------
+
+
+---------- Path Details for Min Critical Paths (end) ---------------

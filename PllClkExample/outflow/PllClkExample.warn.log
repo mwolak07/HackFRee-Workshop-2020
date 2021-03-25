@@ -1,0 +1,57 @@
+[EFX-0256 WARNING] The primary output port 'pll_inst1_RSTN' wire 'pll_inst1_RSTN' is not driven.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 1) Re-wiring to GND non-driven net 'pll_inst1_RSTN'.
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 11) empty statement in sequential block (VERI-1988)
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 9) if-condition does not match any sensitivity list edge (VERI-1167)
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[25]' with driver instance 'i355'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[24]' with driver instance 'i345'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[23]' with driver instance 'i335'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[22]' with driver instance 'i325'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[21]' with driver instance 'i315'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[20]' with driver instance 'i305'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[19]' with driver instance 'i295'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[18]' with driver instance 'i285'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[17]' with driver instance 'i275'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[16]' with driver instance 'i265'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[15]' with driver instance 'i255'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[14]' with driver instance 'i245'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[13]' with driver instance 'i235'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[12]' with driver instance 'i225'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[11]' with driver instance 'i215'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[10]' with driver instance 'i205'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[9]' with driver instance 'i195'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[8]' with driver instance 'i185'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[7]' with driver instance 'i175'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[6]' with driver instance 'i165'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[5]' with driver instance 'i155'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[4]' with driver instance 'i145'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[3]' with driver instance 'i135'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[2]' with driver instance 'i125'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[1]' with driver instance 'i115'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[0]' with driver instance 'i105'.
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 9) if-condition does not match any sensitivity list edge (VERI-1167)
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[25]' with driver instance 'i355'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[24]' with driver instance 'i345'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[23]' with driver instance 'i335'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[22]' with driver instance 'i325'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[21]' with driver instance 'i315'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[20]' with driver instance 'i305'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[19]' with driver instance 'i295'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[18]' with driver instance 'i285'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[17]' with driver instance 'i275'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[16]' with driver instance 'i265'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[15]' with driver instance 'i255'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[14]' with driver instance 'i245'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[13]' with driver instance 'i235'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[12]' with driver instance 'i225'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[11]' with driver instance 'i215'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[10]' with driver instance 'i205'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[9]' with driver instance 'i195'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[8]' with driver instance 'i185'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[7]' with driver instance 'i175'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[6]' with driver instance 'i165'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[5]' with driver instance 'i155'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[4]' with driver instance 'i145'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[3]' with driver instance 'i135'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[2]' with driver instance 'i125'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[1]' with driver instance 'i115'.
+[EFX-0654 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/top.v 3) Breaking combinational loop on net 'clk_count[0]' with driver instance 'i105'.

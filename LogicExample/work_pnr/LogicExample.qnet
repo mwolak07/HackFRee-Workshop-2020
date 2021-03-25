@@ -1,0 +1,28 @@
+cell { name: "led1" type: "io" mode: "outpad" fixed {x: 78 y: 145 k: 0} }
+cell { name: "LUT__7" type: "efl" mode: "logic" }
+cell { name: "LUT__8" type: "efl" mode: "logic" }
+cell { name: "led2" type: "io" mode: "outpad" fixed {x: 78 y: 137 k: 0} }
+cell { name: "btn2" type: "io" mode: "inpad" fixed {x: 78 y: 40 k: 1} }
+cell { name: "btn1" type: "io" mode: "inpad" fixed {x: 78 y: 47 k: 1} }
+net {
+	name: "led1"
+	terminal	{ cell: "LUT__7" port: "O" }
+	terminal	{ cell: "led1" port: "outpad" }
+ }
+net {
+	name: "btn1"
+	terminal	{ cell: "btn1" port: "inpad" }
+	terminal	{ cell: "LUT__7" port: "I[0]" }
+	terminal	{ cell: "LUT__8" port: "I[0]" }
+ }
+net {
+	name: "btn2"
+	terminal	{ cell: "btn2" port: "inpad" }
+	terminal	{ cell: "LUT__7" port: "I[1]" }
+	terminal	{ cell: "LUT__8" port: "I[1]" }
+ }
+net {
+	name: "led2"
+	terminal	{ cell: "LUT__8" port: "O" }
+	terminal	{ cell: "led2" port: "outpad" }
+ }

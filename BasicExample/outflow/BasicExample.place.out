@@ -1,0 +1,331 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272 
+Compiled: Dec  9 2019.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/BasicExample.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 1.98e-05 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 9.46 MB, end = 9.46 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 74.416 MB
+VDB Netlist Checker resident set memory usage: begin = 16.164 MB, end = 16.176 MB, delta = 0.012 MB
+	VDB Netlist Checker peak resident set memory usage = 54.904 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/BasicExample.vdb".
+Netlist pre-processing took 0.0145788 seconds.
+	Netlist pre-processing took 0.014 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 9.46 MB, end = 9.5 MB, delta = 0.04 MB
+	Netlist pre-processing peak virtual memory usage = 74.416 MB
+Netlist pre-processing resident set memory usage: begin = 16.004 MB, end = 16.472 MB, delta = 0.468 MB
+	Netlist pre-processing peak resident set memory usage = 54.904 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+Generate proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr\BasicExample.net_proto" took 0.002 seconds
+Creating IO constraints file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr\BasicExample.io_place'
+Packing took 0.122779 seconds.
+	Packing took 0.123 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 9.5 MB, end = 12.632 MB, delta = 3.132 MB
+	Packing peak virtual memory usage = 74.416 MB
+Packing resident set memory usage: begin = 16.524 MB, end = 19.968 MB, delta = 3.444 MB
+	Packing peak resident set memory usage = 58.432 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr\BasicExample.net_proto
+Read proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr\BasicExample.net_proto" took 0 seconds
+Setup net and block data structure took 0.017 seconds
+Packed netlist loading took 0.0623102 seconds.
+	Packed netlist loading took 0.062 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 9.892 MB, end = 12.32 MB, delta = 2.428 MB
+	Packed netlist loading peak virtual memory usage = 74.416 MB
+Packed netlist loading resident set memory usage: begin = 17.5 MB, end = 19.8 MB, delta = 2.3 MB
+	Packed netlist loading peak resident set memory usage = 58.864 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+Defaulting to: constrain all 0 inputs and 0 outputs on a virtual external clock.
+Optimize this virtual clock to run as fast as possible.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.interface.csv".
+Writing IO placement constraints to 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow\BasicExample.interface.io'.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow\BasicExample.interface.io'.
+WARNING(1): [Line 13] Block clk invalid, no such block.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr\BasicExample.io_place'.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+No constrained clocks found. Qplacer will be run with timing driven mode disabled.
+memory map at hier_level memory(0)/mem_blk(0)
+mult map at hier_level mult(0)/mult_blk(0)
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps) Convergence
+ ----------     -------  --------------     -------
+          1           9     -2147483648       100.0%
+          2           9     -2147483648       100.0%
+          3           9     -2147483648       100.0%
+          4           9     -2147483648       100.0%
+          5           9     -2147483648       100.0%
+          6           9     -2147483648       100.0%
+          7           9     -2147483648       100.0%
+          8           9     -2147483648       100.0%
+          9           9     -2147483648       100.0%
+         10           9     -2147483648       100.0%
+         11           9     -2147483648       100.0%
+         12           9     -2147483648       100.0%
+         13           9     -2147483648       100.0%
+         14           9     -2147483648       100.0%
+Starting Legalization ... 
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0           9              NA        30.0
+          1           9              NA        30.0
+          2           9              NA        30.0
+          3           9              NA        30.0
+          4           9              NA        30.0
+          5           9              NA        30.0
+          6           9              NA        30.0
+          7           9              NA        30.0
+          8           9              NA        30.0
+          9           9              NA        30.0
+         10           9              NA        30.0
+         11           9              NA        30.0
+         12           9              NA        30.0
+         13           9              NA        30.0
+         14           9              NA        30.0
+         15           9              NA        30.0
+         16           9              NA        30.0
+         17           9              NA        30.0
+         18           9              NA        30.0
+         19           9              NA        30.0
+         20           9              NA        30.0
+         21           9              NA        30.0
+         22           9              NA        30.0
+         23           9              NA        30.0
+         24           9              NA        30.0
+         25           9              NA        30.0
+         26           9              NA        30.0
+         27           9              NA        30.0
+         28           9              NA        30.0
+         29           9              NA        30.0
+         30           9              NA        30.0
+         31           9              NA        30.0
+         32           9              NA        30.0
+         33           9              NA        30.0
+         34           9              NA        30.0
+         35           9              NA        30.0
+         36           9              NA        30.0
+         37           9              NA        30.0
+         38           9              NA        30.0
+         39           9              NA        30.0
+         40           9              NA        30.0
+         41           9              NA        30.0
+         42           9              NA        30.0
+         43           9              NA        30.0
+         44           9              NA        30.0
+         45           9              NA        30.0
+         46           9              NA        30.0
+         47           9              NA        30.0
+         48           9              NA        30.0
+         49           9              NA        30.0
+         50           9              NA        30.0
+         51           9              NA        30.0
+         52           9              NA        30.0
+         53           9              NA        30.0
+         54           9              NA        30.0
+         55           9              NA        30.0
+         56           9              NA        30.0
+         57           9              NA        30.0
+         58           9              NA        30.0
+         59           9              NA        30.0
+         60           9              NA        30.0
+         61           9              NA        30.0
+         62           9              NA        30.0
+         63           9              NA        30.0
+         64           9              NA        30.0
+         65           9              NA        30.0
+         66           9              NA        30.0
+         67           9              NA        30.0
+         68           9              NA        30.0
+         69           9              NA        30.0
+         70           9              NA        30.0
+         71           9              NA        30.0
+         72           9              NA        30.0
+         73           9              NA        30.0
+         74           9              NA        30.0
+         75           9              NA        30.0
+         76           9              NA        30.0
+         77           9              NA        30.0
+         78           9              NA        30.0
+         79           9              NA        30.0
+         80           9              NA        30.0
+         81           9              NA        30.0
+         82           9              NA        30.0
+         83           9              NA        30.0
+         84           9              NA        30.0
+         85           9              NA        30.0
+         86           9              NA        30.0
+         87           9              NA        30.0
+         88           9              NA        30.0
+         89           9              NA        30.0
+         90           9              NA        30.0
+         91           9              NA        30.0
+         92           9              NA        30.0
+         93           9              NA        30.0
+         94           9              NA        30.0
+         95           9              NA        30.0
+         96           9              NA        30.0
+         97           9              NA        30.0
+         98           9              NA        30.0
+         99           9              NA        30.0
+        100           9              NA        30.0
+        101           9              NA        30.0
+        102           9              NA        30.0
+        103           9              NA        30.0
+        104           9              NA        30.0
+        105           9              NA        30.0
+        106           9              NA        30.0
+        107           9              NA        30.0
+        108           9              NA        30.0
+        109           9              NA        30.0
+        110           9              NA        30.0
+        111           9              NA        30.0
+        112           9              NA        30.0
+        113           9              NA        30.0
+        114           9              NA        30.0
+        115           9              NA        30.0
+        116           9              NA        30.0
+        117           9              NA        30.0
+        118           9              NA        30.0
+        119           9              NA        30.0
+        120           9              NA        30.0
+        121           9              NA        30.0
+        122           9              NA        30.0
+        123           9              NA        30.0
+        124           9              NA        30.0
+        125           9              NA        30.0
+        126           9              NA        30.0
+        127           9              NA        30.0
+        128           9              NA        30.0
+        129           9              NA        30.0
+        130           9              NA        30.0
+        131           9              NA        30.0
+        132           9              NA        30.0
+        133           9              NA        30.0
+        134           9              NA        30.0
+        135           9              NA        30.0
+        136           9              NA        30.0
+        137           9              NA        30.0
+        138           9              NA        30.0
+        139           9              NA        30.0
+        140           9              NA        30.0
+        141           9              NA        30.0
+        142           9              NA        30.0
+        143           9              NA        30.0
+        144           9              NA        30.0
+        145           9              NA        30.0
+        146           9              NA        30.0
+        147           9              NA        30.0
+        148           9              NA        30.0
+        149           9              NA        30.0
+        150           9              NA        30.0
+        151           9              NA        30.0
+        152           9              NA        30.0
+        153           9              NA        30.0
+        154           9              NA        30.0
+        155           9              NA        30.0
+        156           9              NA        30.0
+        157           9              NA        30.0
+        158           9              NA        30.0
+        159           9              NA        30.0
+        160           9              NA        30.0
+        161           9              NA        30.0
+        162           9              NA        30.0
+        163           9              NA        30.0
+        164           9              NA        30.0
+        165           9              NA        30.0
+        166           9              NA        30.0
+        167           9              NA        30.0
+        168           9              NA        30.0
+        169           9              NA        30.0
+        170           9              NA        30.0
+        171           9              NA        30.0
+        172           9              NA        30.0
+        173           9              NA        30.0
+        174           9              NA        30.0
+        175           9              NA        30.0
+        176           9              NA        30.0
+        177           9              NA        30.0
+        178           9              NA        30.0
+        179           9              NA        30.0
+        180           9              NA        30.0
+        181           9              NA        30.0
+        182           9              NA        30.0
+        183           9              NA        30.0
+        184           9              NA        30.0
+        185           9              NA        30.0
+        186           9              NA        30.0
+        187           9              NA        30.0
+        188           9              NA        30.0
+        189           9              NA        30.0
+        190           9              NA        30.0
+        191           9              NA        30.0
+        192           9              NA        30.0
+        193           9              NA        30.0
+        194           9              NA        30.0
+        195           9              NA        30.0
+        196           9              NA        30.0
+        197           9              NA        30.0
+        198           9              NA        30.0
+        199           9              NA        30.0
+        200           9              NA        30.0
+Placement successful: 0 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.00350747 at 78,66
+Congestion-weighted HPWL per net: 4.07361
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.qplace'.
+Finish Realign Types (0 blocks need type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: -1e+09 ns
+Successfully created FPGA place file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.place'
+Placement took 3.76013 seconds.
+	Placement took 3.76 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 13.416 MB, end = 15.916 MB, delta = 2.5 MB
+	Placement peak virtual memory usage = 74.416 MB
+Placement resident set memory usage: begin = 20.668 MB, end = 25.364 MB, delta = 4.696 MB
+	Placement peak resident set memory usage = 64.736 MB
+***** Ending stage placement *****

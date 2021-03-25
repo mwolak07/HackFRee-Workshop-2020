@@ -1,0 +1,29 @@
+Netlist file: C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.net   Architecture file: C:/Efinity/2019.3/arch/./arch_oph_77x162_b3_d1.xml
+Array size: 77 x 162 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+clk_count[6]~FF	75	97	0	#0
+clk_count[4]~FF	75	95	0	#1
+clk_count[8]~FF	75	99	0	#2
+clk_count[15]~FF	75	106	0	#3
+clk_count[12]~FF	75	103	0	#4
+clk_count[14]~FF	75	105	0	#5
+clk_count[5]~FF	75	96	0	#6
+clk_count[3]~FF	75	94	0	#7
+clk_count[1]~FF	75	92	0	#8
+clk_count[0]~FF	75	90	0	#9
+clk_count[7]~FF	75	98	0	#10
+clk_count[11]~FF	75	102	0	#11
+clk_count[2]~FF	75	93	0	#12
+clk_count[9]~FF	75	100	0	#13
+clk_count[13]~FF	75	104	0	#14
+clk_count[10]~FF	75	101	0	#15
+led2		78	137	0	#16
+VCC		58	106	0	#17
+LUT__145	73	141	0	#18
+LUT__143	73	115	0	#19
+CLKBUF__0	77	85	0	#20
+GND		74	98	0	#21
+led1		78	145	0	#22
+clk		78	85	1	#23

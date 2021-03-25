@@ -1,0 +1,14 @@
+cell { name: "led1" type: "io" mode: "outpad" fixed {x: 78 y: 145 k: 0} }
+cell { name: "led2" type: "io" mode: "outpad" fixed {x: 78 y: 137 k: 0} }
+cell { name: "btn2" type: "io" mode: "inpad" fixed {x: 78 y: 40 k: 1} }
+cell { name: "btn1" type: "io" mode: "inpad" fixed {x: 78 y: 47 k: 1} }
+net {
+	name: "led1"
+	terminal	{ cell: "btn1" port: "inpad" }
+	terminal	{ cell: "led1" port: "outpad" }
+ }
+net {
+	name: "led2"
+	terminal	{ cell: "btn2" port: "inpad" }
+	terminal	{ cell: "led2" port: "outpad" }
+ }

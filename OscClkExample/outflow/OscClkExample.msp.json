@@ -1,0 +1,48 @@
+{
+    "version": "1.0.0",
+    "top_module": "top_module",
+    "postmap": [
+        {
+            "clock_name": "",
+            "nets": [
+                {
+                    "name": "gnd",
+                    "width": 1
+                },
+                {
+                    "name": "vcc",
+                    "width": 1
+                }
+            ]
+        },
+        {
+            "clock_name": "clk",
+            "nets": [
+                {
+                    "name": "n6",
+                    "width": 1
+                },
+                {
+                    "name": "led1",
+                    "width": 1
+                },
+                {
+                    "name": "led2",
+                    "width": 1
+                },
+                {
+                    "name": "clk~O",
+                    "width": 1
+                },
+                {
+                    "name": "clk_count[2]",
+                    "width": 1
+                },
+                {
+                    "name": "clk_count[3]",
+                    "width": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+
+3
+led1iooutpad"
+led1io(0)/outpad(1)"output
+3
+led2iooutpad"
+led2io(0)/outpad(1)"output
+0
+btn2ioinpad"
+btn2io(0)/inpad(0)"input
+0
+btn1ioinpad"
+btn1io(0)/inpad(0)"input

@@ -1,0 +1,35 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272 
+Date: Sat Jan 18 14:33:51 2020
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T8F81
+Top-level Entity Name: LogicExample
+
+---------- Resource Summary (begin) ----------
+Inputs: 2 / 96 (2.08%)
+Outputs: 2 / 113 (1.77%)
+Clocks: 0 / 16 (0.00%)
+Logic Elements: 2 / 7384 (0.03%)
+	LE: LUTs/Adders: 2 / 7384 (0.03%)
+	LE: Registers: 0 / 5280 (0.00%)
+Memory Blocks: 0 / 24 (0.00%)
+Multipliers: 0 / 8 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|          clk           |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 1 seconds

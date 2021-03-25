@@ -1,0 +1,105 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272 
+Compiled: Dec  9 2019.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/PllClkExample.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0873172 seconds.
+	VDB Netlist Checker took 0.087 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 9.6 MB, end = 9.6 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 73.88 MB
+VDB Netlist Checker resident set memory usage: begin = 16.324 MB, end = 16.496 MB, delta = 0.172 MB
+	VDB Netlist Checker peak resident set memory usage = 54.772 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/outflow/PllClkExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/outflow/PllClkExample.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/PllClkExample.vdb".
+Netlist pre-processing took 0.109164 seconds.
+	Netlist pre-processing took 0.108 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 9.1 MB, end = 9.6 MB, delta = 0.5 MB
+	Netlist pre-processing peak virtual memory usage = 73.88 MB
+Netlist pre-processing resident set memory usage: begin = 15.872 MB, end = 16.928 MB, delta = 1.056 MB
+	Netlist pre-processing peak resident set memory usage = 54.772 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+Generate proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/work_pnr\PllClkExample.net_proto" took 0.009 seconds
+Creating IO constraints file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/work_pnr\PllClkExample.io_place'
+Packing took 0.187092 seconds.
+	Packing took 0.187 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 9.6 MB, end = 13.212 MB, delta = 3.612 MB
+	Packing peak virtual memory usage = 73.88 MB
+Packing resident set memory usage: begin = 16.956 MB, end = 20.824 MB, delta = 3.868 MB
+	Packing peak resident set memory usage = 58.716 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/work_pnr\PllClkExample.net_proto
+Read proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/work_pnr\PllClkExample.net_proto" took 0 seconds
+Setup net and block data structure took 0.022 seconds
+Packed netlist loading took 0.0632836 seconds.
+	Packed netlist loading took 0.063 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 11.54 MB, end = 14.788 MB, delta = 3.248 MB
+	Packed netlist loading peak virtual memory usage = 73.88 MB
+Packed netlist loading resident set memory usage: begin = 18.34 MB, end = 21.604 MB, delta = 3.264 MB
+	Packed netlist loading peak resident set memory usage = 60.668 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+Defaulting to: constrain all 0 inputs and 0 outputs on the netlist clock.
+Optimize this virtual clock to run as fast as possible.
+
+WARNING(1): Cutting all (2) timing edges out from timing node 1037, sorry
+WARNING(2): Cutting all (2) timing edges out from timing node 1075, sorry
+WARNING(3): Cutting all (2) timing edges out from timing node 1047, sorry
+WARNING(4): Cutting all (2) timing edges out from timing node 1095, sorry
+WARNING(5): Cutting all (2) timing edges out from timing node 1150, sorry
+WARNING(6): Cutting all (2) timing edges out from timing node 1190, sorry
+WARNING(7): Cutting all (2) timing edges out from timing node 1254, sorry
+WARNING(8): Cutting all (2) timing edges out from timing node 1339, sorry
+WARNING(9): Cutting all (2) timing edges out from timing node 1379, sorry
+WARNING(10): Cutting all (2) timing edges out from timing node 1449, sorry
+WARNING(11): Cutting all (2) timing edges out from timing node 1489, sorry
+WARNING(12): Cutting all (2) timing edges out from timing node 1589, sorry
+WARNING(13): Cutting all (2) timing edges out from timing node 1659, sorry
+WARNING(14): Cutting all (2) timing edges out from timing node 1669, sorry
+WARNING(15): Cutting all (2) timing edges out from timing node 1694, sorry
+WARNING(16): Cutting all (2) timing edges out from timing node 1734, sorry
+WARNING(17): Cutting all (2) timing edges out from timing node 1864, sorry
+WARNING(18): Cutting all (2) timing edges out from timing node 2156, sorry
+WARNING(19): Cutting all (2) timing edges out from timing node 2166, sorry
+WARNING(20): Cutting all (2) timing edges out from timing node 974, sorry
+WARNING(21): Cutting all (2) timing edges out from timing node 733, sorry
+WARNING(22): Cutting all (2) timing edges out from timing node 743, sorry
+WARNING(23): Cutting all (2) timing edges out from timing node 1028, sorry
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/outflow/PllClkExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/outflow/PllClkExample.interface.csv".
+Writing IO placement constraints to 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/outflow\PllClkExample.interface.io'.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/PllClkExample/outflow\PllClkExample.interface.io'.
+WARNING(24): [Line 12] Block pll_RSTN invalid, no such block.
+ERROR(1): Required pin pll_RSTN not found.
+ERROR(2): Found 1 errors while checking core interface requirements

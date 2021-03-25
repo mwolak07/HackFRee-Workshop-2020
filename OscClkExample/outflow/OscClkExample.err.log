@@ -1,0 +1,10 @@
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0007 VERI-ERROR] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 5) syntax error near ',' (VERI-1137)
+[EFX-0007 VERI-ERROR] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 6) syntax error near ',' (VERI-1137)
+[EFX-0007 VERI-ERROR] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 12) module 'top_module' ignored due to previous errors (VERI-1072)
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.
+[EFX-0007 VERI-ERROR] Post-synthesis netlist has only vcc and gnd nets. Legal, but will cause router to crash.

@@ -1,0 +1,8 @@
+clock {
+  name: "virtual_io_clock"
+  period: 1000
+  origin: SDC
+  uncertainty {
+    value: 140
+  }
+}

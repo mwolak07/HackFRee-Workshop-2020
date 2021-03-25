@@ -1,0 +1,184 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2019.3.272 
+Compiled: Dec  9 2019.
+
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0125309 seconds.
+	VDB Netlist Checker took 0.012 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 9.632 MB, end = 9.632 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 72.292 MB
+VDB Netlist Checker resident set memory usage: begin = 16.34 MB, end = 16.512 MB, delta = 0.172 MB
+	VDB Netlist Checker peak resident set memory usage = 55.016 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.vdb".
+Netlist pre-processing took 0.0189817 seconds.
+	Netlist pre-processing took 0.019 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 9.624 MB, end = 9.688 MB, delta = 0.064 MB
+	Netlist pre-processing peak virtual memory usage = 72.292 MB
+Netlist pre-processing resident set memory usage: begin = 16.116 MB, end = 16.828 MB, delta = 0.712 MB
+	Netlist pre-processing peak resident set memory usage = 55.016 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage packing ... *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+Generate proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.net_proto" took 0.004 seconds
+Creating IO constraints file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.io_place'
+Packing took 0.0604608 seconds.
+	Packing took 0.06 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 9.688 MB, end = 12.992 MB, delta = 3.304 MB
+	Packing peak virtual memory usage = 72.292 MB
+Packing resident set memory usage: begin = 16.856 MB, end = 20.484 MB, delta = 3.628 MB
+	Packing peak resident set memory usage = 58.632 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.net_proto
+Read proto netlist for file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.009 seconds
+Packed netlist loading took 0.0264646 seconds.
+	Packed netlist loading took 0.027 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 10.472 MB, end = 13.532 MB, delta = 3.06 MB
+	Packed netlist loading peak virtual memory usage = 72.292 MB
+Packed netlist loading resident set memory usage: begin = 17.72 MB, end = 20.42 MB, delta = 2.7 MB
+	Packed netlist loading peak resident set memory usage = 59.484 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+Defaulting to: constrain all 0 inputs and 0 outputs on the netlist clock.
+Optimize this virtual clock to run as fast as possible.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.interface.csv'.
+Successfully processed interface constraints file "C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.interface.csv".
+Writing IO placement constraints to 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow\OscClkExample.interface.io'.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow\OscClkExample.interface.io'.
+WARNING(1): [Line 11] Block btn1 invalid, no such block.
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/work_pnr\OscClkExample.io_place'.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+memory map at hier_level memory(0)/mem_blk(0)
+mult map at hier_level mult(0)/mult_blk(0)
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps) Convergence
+ ----------     -------  --------------     -------
+          1          26            4027        73.4%
+          2          25            4027        76.5%
+          3          24            4027        79.8%
+          4          24            4027        82.0%
+          5          27            4027        82.0%
+          6          26            4027        82.0%
+          7          29            4027        82.0%
+          8          28            4027        82.0%
+          9          25            4026        82.0%
+         10          25            4026        83.2%
+         11          25            4026        88.1%
+         12          25            4026        94.0%
+         13          24            4026        94.0%
+         14          24            4026        96.4%
+         15          24            4026        96.4%
+         16          23            4026        98.1%
+         17          23            4026        98.1%
+         18          23            4026        98.1%
+         19          23            4026        98.2%
+         20          23            4026        98.2%
+         21          24            4026        98.2%
+Starting Legalization ... 
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0          23            5026        30.0
+          1          28            5026        30.0
+          2          29            5026        30.0
+          3          28            5026        30.0
+          4          29            5026        30.0
+          5          28            5026        30.0
+          6          26            5026        30.0
+          7          27            5026        30.0
+          8          33            5026        30.0
+          9          29            5026        30.0
+         10          27            5026        30.0
+         11          32            5026        30.0
+         12          33            5026        30.0
+         13          30            5026        30.0
+         14          30            5026        30.0
+         15          31            5026        30.0
+         16          30            5026        30.0
+         17          29            5026        30.0
+         18          29            5026        30.0
+         19          24            5026        30.0
+         20          26            5026        30.0
+         21          26            5026        30.0
+         22          27            5026        30.0
+         23          25            5026        30.0
+         24          26            5026        30.0
+         25          26            5026        26.7
+         26          26            5026        28.5
+         27          28            5026        27.1
+         28          28            5026        30.0
+         29          25            5026        30.0
+         30          26            5026        30.0
+         31          27            5026        26.7
+         32          28            5026        29.5
+         33          26            5026        29.9
+         34          26            5026        28.5
+         35          26            5026        28.0
+         36          26            5026        26.9
+         37          26            5026        30.0
+         38          26            5026        26.7
+         39          26            5026        30.0
+         40          27            5026        26.7
+         41          27            5026        25.2
+         42          26            5026        24.1
+         43          25            5026        26.6
+         44          25            5026        30.0
+         45          25            5026        30.0
+         46          25            5026        26.7
+         47          25            5026        23.8
+Placement successful: 20 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.0100559 at 78,104
+Congestion-weighted HPWL per net: 0.554295
+
+Reading placement constraints from 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.qplace'.
+Finish Realign Types (2 blocks need type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 4.88626 ns
+Successfully created FPGA place file 'C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/outflow/OscClkExample.place'
+Placement took 1.19836 seconds.
+	Placement took 1.199 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 13.532 MB, end = 17.064 MB, delta = 3.532 MB
+	Placement peak virtual memory usage = 72.292 MB
+Placement resident set memory usage: begin = 21.148 MB, end = 26.384 MB, delta = 5.236 MB
+	Placement peak resident set memory usage = 65.98 MB
+***** Ending stage placement *****

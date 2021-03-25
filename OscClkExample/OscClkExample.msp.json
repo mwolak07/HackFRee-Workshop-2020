@@ -1,0 +1,156 @@
+{
+    "version": "1.0.0",
+    "top_module": "top_module",
+    "postmap": [
+        {
+            "clock_name": "",
+            "nets": [
+                {
+                    "name": "gnd",
+                    "width": 1
+                },
+                {
+                    "name": "vcc",
+                    "width": 1
+                }
+            ]
+        },
+        {
+            "clock_name": "clk",
+            "nets": [
+                {
+                    "name": "n6",
+                    "width": 1
+                },
+                {
+                    "name": "n7",
+                    "width": 1
+                },
+                {
+                    "name": "n20",
+                    "width": 1
+                },
+                {
+                    "name": "n21",
+                    "width": 1
+                },
+                {
+                    "name": "n22",
+                    "width": 1
+                },
+                {
+                    "name": "n23",
+                    "width": 1
+                },
+                {
+                    "name": "n24",
+                    "width": 1
+                },
+                {
+                    "name": "n25",
+                    "width": 1
+                },
+                {
+                    "name": "n26",
+                    "width": 1
+                },
+                {
+                    "name": "n27",
+                    "width": 1
+                },
+                {
+                    "name": "n28",
+                    "width": 1
+                },
+                {
+                    "name": "n29",
+                    "width": 1
+                },
+                {
+                    "name": "n30",
+                    "width": 1
+                },
+                {
+                    "name": "n31",
+                    "width": 1
+                },
+                {
+                    "name": "n32",
+                    "width": 1
+                },
+                {
+                    "name": "n33",
+                    "width": 1
+                },
+                {
+                    "name": "n34",
+                    "width": 1
+                },
+                {
+                    "name": "n35",
+                    "width": 1
+                },
+                {
+                    "name": "n36",
+                    "width": 1
+                },
+                {
+                    "name": "n37",
+                    "width": 1
+                },
+                {
+                    "name": "n38",
+                    "width": 1
+                },
+                {
+                    "name": "n39",
+                    "width": 1
+                },
+                {
+                    "name": "n40",
+                    "width": 1
+                },
+                {
+                    "name": "n41",
+                    "width": 1
+                },
+                {
+                    "name": "n42",
+                    "width": 1
+                },
+                {
+                    "name": "n43",
+                    "width": 1
+                },
+                {
+                    "name": "n44",
+                    "width": 1
+                },
+                {
+                    "name": "n45",
+                    "width": 1
+                },
+                {
+                    "name": "n46",
+                    "width": 1
+                },
+                {
+                    "name": "led1",
+                    "width": 1
+                },
+                {
+                    "name": "led2",
+                    "width": 1
+                },
+                {
+                    "name": "clk~O",
+                    "width": 1
+                },
+                {
+                    "name": "clk_count",
+                    "width": 16
+                }
+            ]
+        }
+    ]
+}

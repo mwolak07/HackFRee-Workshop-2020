@@ -1,0 +1,9 @@
+Netlist file: C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_pnr\BasicExample.net   Architecture file: C:/Efinity/2019.3/arch/./arch_oph_77x162_b3_d1.xml
+Array size: 77 x 162 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+led1		78	145	0	#0
+led2		78	137	0	#1
+btn2		78	40	1	#2
+btn1		78	47	1	#3

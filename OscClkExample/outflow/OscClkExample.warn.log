@@ -1,0 +1,23 @@
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) net 'clk_count[2]' does not have a driver (VDB-1002)
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) Re-wiring to GND non-driven net 'clk_count[2]'.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) Re-wiring to GND non-driven net 'clk_count[3]'.
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) net 'clk_count[2]' does not have a driver (VDB-1002)
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) Re-wiring to GND non-driven net 'clk_count[2]'.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) Re-wiring to GND non-driven net 'clk_count[3]'.
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) net 'clk_count[2]' does not have a driver (VDB-1002)
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) Re-wiring to GND non-driven net 'clk_count[2]'.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 3) Re-wiring to GND non-driven net 'clk_count[3]'.
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed
+[EFX-0008 VERI-WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 6) invalid size of integer constant literal (VERI-1864)
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed
+[EFX-0256 WARNING] The primary output port 'led2' wire 'led2' is not driven.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 1) Re-wiring to GND non-driven net 'led2'.
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed
+[EFX-0256 WARNING] The primary output port 'led2' wire 'led2' is not driven.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 1) Re-wiring to GND non-driven net 'led2'.
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed
+[EFX-0256 WARNING] The primary output port 'led2' wire 'led2' is not driven.
+[EFX-0201 WARNING] (C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/OscClkExample/OscClkExample.v 1) Re-wiring to GND non-driven net 'led2'.
+[EFX-0008 VERI-WARNING] Input/Inout Port clk is unconnected and will be removed

@@ -1,0 +1,36 @@
+
+Efinity Interface Designer Timing Report
+Version: 2019.3.272
+Date: 2020-01-18 14:33
+
+Copyright (C) 2017 - 2019 Efinix Inc. All rights reserved.
+
+Device: T8F81
+Project: LogicExample
+Timing Model: C2 (final)
+
+---------- 1. Oscillator Timing Report (begin) ----------
+
++-------+-------------+
+| Clock | Period (ns) |
++-------+-------------+
+|  clk  |    100000   |
++-------+-------------+
+
+---------- Oscillator Timing Report (end) ----------
+
+---------- 2. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+----------+-----------+----------+----------+
+| Instance Name | Pin Name | Parameter | Max (ns) | Min (ns) |
++---------------+----------+-----------+----------+----------+
+|      btn1     |   btn1   |  GPIO_IN  |  1.954   |  0.698   |
+|      btn2     |   btn2   |  GPIO_IN  |  1.954   |  0.698   |
+|      led1     |   led1   |  GPIO_OUT |  5.361   |  1.915   |
+|      led2     |   led2   |  GPIO_OUT |  5.361   |  1.915   |
++---------------+----------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------

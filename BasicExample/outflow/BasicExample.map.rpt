@@ -1,0 +1,68 @@
+Synthesis report for project BasicExample
+Date : Jan 18 2020  13:28:45
+Copyright (C) 2013 - 2019 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : top_module
+### ### File List (begin) ### ### ###
+C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/BasicExample.v (verilog_2k)
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 0
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                         FFs        ADDs        LUTs      RAMs     MULTs
+----------------------         ---        ----        ----      ----     -----
+top_module:top_module         0(0)        0(0)        0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ No clock loads in design
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T8F81
+project : BasicExample
+root : top_module
+I : C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample
+output-dir : C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow
+work-dir : C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/work_syn
+write-efx-verilog : C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/outflow/BasicExample.map.v
+binary-db : C:/Users/mwola/OneDrive/Coding/2020/HackFRee-Workshop-2020/BasicExample/BasicExample.vdb
+insert-ios : 0
+num_mult18 : -1
+num_ram_5k : -1
+syn_options : mode=speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	2
+OUTPUT PORTS    : 	2
+
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 0s
